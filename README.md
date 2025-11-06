@@ -31,17 +31,3 @@ This work **overcomes the limitations of the official ESP-IDF FTM example**, ena
 
 These two files **serve as a drop-in replacement** for the ESP-IDF FTM examples so that researchers can directly use them for FTM+CSI fusion ranging experiments.
 
----
-
-## Why Replace the Official ESP-IDF FTM Example?
-
-The official examples are only suitable for basic RTT tests. They lack:
-
-| Limitation in Official ESP-IDF Example |
-|----------------------------------------|
-| No CSI integration |
-| No CSI and FTM synchronization |
-| No multi-anchor support |
-| Not designed for dataset generation or AI/ML |
-
-
